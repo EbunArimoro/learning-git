@@ -80,9 +80,18 @@ width: 100%;
 }
 
 .gallery .header {
-
+    display: flex;
+    width: 100%;
+    align-content: space-between;
 }
 
+.gallery .header p {
+    width: 100%;
+}
+
+.gallery .header h2 {
+    width: 1000%;
+}
 .gallery .images {
   display: flex;
 }
