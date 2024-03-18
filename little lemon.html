@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Little Lemon</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="./images/bath.jpg" style="width: 250px; height: 250px; object-fit: cover;">
+      <img
+        src="./images/bath.jpg"
+        style="width: 250px; height: 250px; object-fit: cover"
+      />
     </header>
-<!--This is a  comment-->
+    <!--This is a  comment-->
     <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="location.html">Location</a></li>
-            <li><a href="blog.html">Blog</a></li>
-        </ul>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="location.html">Location</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
     </nav>
 
     <main>
-        <h1>Blog</h1>
-        <article>
-            <h2>20% off this weekend</h2>
-            <p>Come down to Little Lemon and your meal will be 20% off this weekend!</p>
-        </article>
-            
-        <article>
-            <h2> Our new menu</h2>
-            <p>We've updated our menu in this new dinners</p>
-        </article>
+      <h1>Blog</h1>
+      <article>
+        <h2>20% off this weekend</h2>
+        <p>
+          Come down to Little Lemon and your meal will be 20% off this weekend!
+        </p>
+      </article>
+
+      <article>
+        <h2>Our new menu</h2>
+        <p>We've updated our menu in this new dinners</p>
+      </article>
+      <div>
+        <form>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" required minlength="3" />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required minlength="3" />
+          </div>
+          <button type="submit">Log In</button>
+        </form>
+      </div>
     </main>
 
     <footer>
-        <p>Copyright Little Lemon</p>
+      <p>Copyright Little Lemon</p>
     </footer>
-
-</body>
+  </body>
 </html>
